@@ -1,0 +1,24 @@
+img {
+	width: 100%;
+	height:500px;
+	object-fit: cover;
+}
+
+.container-xx .row {
+	margin: auto;
+}
+
+.btn-outline-danger {
+	margin-left: 20px;
+}
+
+.modal .fade {
+	z-index: 999;
+}
+
+@media (max-width: 1200px) and (min-width: 576px) {
+  .container-xx {
+    padding: calc(1.325rem + 0.9vw);
+    font-size: 1.125rem;
+  }
+}
